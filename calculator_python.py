@@ -48,16 +48,3 @@ while True:
 
     else: 
         print("Please choose the right option")          
-
-    
-       
-       
-       
-         
-
-  
-        
-        
-        
-   
-
