@@ -1,7 +1,7 @@
 
 """
 Create a game where the computer generates a random number,
- and the player guesses it. 
+and the player guesses it. 
 Provide hints (higher/lower) after each guess
 Skills: Basic input/output, conditionals (if statements), loops
 (while), random module.
@@ -39,14 +39,14 @@ while guess != final_number and attempts < max_attempts:
     attempts += 1
     
     if guess < final_number:
-        print("\nLittle Higher")
+        print("\nHigher")
     elif guess > final_number:
-        print("\nLittle Lower")
+        print("\nLower")
     else:
-        print(f"Congracts! you guess the correct number in {attemps} attemps." )
+        print(f"Congracts! you guess the correct number in {attemps} attemps, Well_done!." )
     
 if final_number != max_attempts:
-    print(f"You are noob, go play ludo {attempts} attempts secret number is {final_number}")    
+    print(f"You are noob, go play ludo {attempts} attempts  final_number is {final_number}")    
 
 
 
