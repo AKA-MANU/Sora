@@ -1,7 +1,7 @@
 
 """
-Create a game where the computer generates a random number,
-and the player guesses it. 
+Create a game where the a random number generate,
+and the player  have guess it. 
 Provide hints (higher/lower) after each guess
 Skills: Basic input/output, conditionals (if statements), loops
 (while), random module.
