@@ -1,0 +1,23 @@
+num1= float(input("first number"))
+num2= float(input("\nsecond number"))
+num3= float(input("\nthird number"))
+
+Smallest = min(num1,num2,num3)
+Largest = max(num1,num2,num3)
+
+if num1 > num2 and num1 > num3:
+    print("Largest is num1:",num1)
+    print()
+    print("Smallest is num2 and num3:",num2 and num3)
+elif num2 > num1 and num2 > num3:
+    print("Largest is num2:",num2)
+    print()
+    print("Smallest is num1 and num3:",num1 and num2)
+elif num3 > num2 and num3 > num1:
+    print("Largest is num3:",num3)
+    print()
+    print("Smallest is num1 and num2:",num1 and num2)
+elif num1 == num2 == num3:
+    print("\nBoth equal")
+else:
+    print("invalid")
