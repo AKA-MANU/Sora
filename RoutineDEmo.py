@@ -69,4 +69,8 @@ while True:
     if choose == "8":
         print("\nSee ya!")
         break
+    else:
+        print("Invalid! choose the correct option")
+
+
     
