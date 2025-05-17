@@ -54,19 +54,19 @@ while True:
 
     if choose == "1":
         Sunday()
-    if choose == "2":
+    elif choose == "2":
         Monday()
-    if choose == "3":
+    elif choose == "3":
         Tuesday()
-    if choose == "4":
+    elif choose == "4":
         Wednesday()
-    if choose == "5":
+    elif choose == "5":
         Thursday()
-    if choose == "6":
+    elif choose == "6":
         Friday()
-    if choose == "7":
+    elif choose == "7":
         Saturday()
-    if choose == "8":
+    elif choose == "8":
         print("\nSee ya!")
         break
     else:
